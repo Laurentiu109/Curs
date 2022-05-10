@@ -1,0 +1,25 @@
+# Clonare repo = descarcare cod
+git clone URL
+
+# Verificare stare
+git status
+
+# Adaugare fisiere pentru a fi incluse in urmatorul commit
+git add NUME_FISIER
+# Adauga toate fisierele
+git add .
+
+# Stergere fisiere din lista de modificare
+git rm --cached NUME_FISIER
+
+# commit = salveaza starea curenta
+git commit -m "Mesaj"
+git commit
+# Se iese din editor cu ESC > : >wq > ENTER
+
+# configurarea email si NUME_FISIER
+git config --global user.email "EMAIL GITHUB"
+git config --global user.name "NUME PRENUME"
+
+# afiseaza istorie
+git log
