@@ -21,7 +21,7 @@ if answer.lower() == "ankara":
 
 else:
     print("Incorect!")
-    print("Jocul a luat sfarsit.")
+    print("Mare pula esti!")
     quit()
 
 answer = input("Care este cel mai lung fluviu din Europa ? ")
@@ -32,7 +32,7 @@ if answer.lower() == "volga":
     score = score + 1
 else:
     print("Inocrect!")
-    print("Jocul a luat sfarsit.")
+    print("Mare pula esti!")
     quit()
 
 answer = input("In ce tara este situat Parndorf ? ")
@@ -43,7 +43,7 @@ if answer.lower() == "austria":
     score = score +1
 else:
     print("Incorect!")
-    print("Jocul a luat sfarsit!")
+    print("Mare pula esti!")
     quit()
 
 answer = input("La ce echipa joaca in prezent Sadio Mane? ")
@@ -54,7 +54,7 @@ if answer.lower() == "liverpool":
     score = score +1
 else:
     print("Incorect!")
-    print("Jocul a luat sfarsit!")
+    print("Mare pula esti!")
     quit()
 
 answer = input("La cati ani a murit Mihai Eminescu? ")
@@ -64,7 +64,8 @@ if answer.lower() == "39":
     score = score +1
 else:
     print("Incorect!")
-    print("Jocul a luat sfarsit!")
+    print("Mare pula esti!")
     quit()
 
 print("Felicitari ai raspuns corect la "  + str(score) +  " intrebari!" )
+print("Bravo pula")
